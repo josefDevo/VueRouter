@@ -1,0 +1,81 @@
+$blue: (#00A6FF)
+$navy: (#001f3f)
+$teal: (#39CCCC)
+$darkTeal: (#2B4A57)
+$white: (#fff)
+$lightGrey: (#9b9b9b)
+$boxShadow1: rgba(0, 0, 0, 0.24)
+$boxShadow2: rgba(0, 0, 0, 0.12)
+$gradient: (#fafafa)
+$gradientBtm: (#ffffff)
+$grad: rgba(255, 255, 255, 0)
+
+.body
+  min-height: 100%
+  margin: 0 !important
+
+.container
+  background-color: $darkTeal
+  width: 100vw
+  height: 100vh
+  display: flex
+  flex-direction: column
+  align-items: center
+
+.top
+  display: flex
+  justify-content: center
+  text-align: center
+  background-color: $navy
+  width: 100%
+  height: 37%
+
+#vueHead
+  font-family: 'Anton', sans-serif
+  font-size: 100px
+  font-weight: normal
+  color: $teal
+
+a:-webkit-any-link
+  font-family: 'Tajawal', sans-serif
+  font-size: 25px
+  font-weight: normal
+  letter-spacing: 10px
+  color: $darkTeal
+  cursor: pointer
+  text-decoration: none
+
+a:hover
+  color: $teal
+
+.middle
+  @extend .top
+  height: 38.64%
+
+.coloredText
+  font-family: 'Tajawal', sans-serif
+  font-size: 15px
+  font-weight: normal
+  letter-spacing: 10px
+  color: $navy
+
+.colorInput
+  margin-top: 3.51%
+  width: 40.74%
+  border-radius: 2px
+  box-shadow: 0 2px 2px 0 $boxShadow1, 0 0 2px 0 $boxShadow2
+  border: solid 1px transparent
+  background-image: linear-gradient $gradient, $gradient, linear-gradient(to bottom, $gradientBtm, $grad 20%, $grad)
+  background-origin: border-box
+  background-clip: content-box, border-box
+  font-size: 24px
+  font-weight: 300
+  font-style: normal
+  font-stretch: normal
+  line-height: normal
+  letter-spacing: 0.6px
+  text-align: center
+  color: $lightGrey
+  position: relative
+  left: 50%
+  transform: translate(-50%, -50%)

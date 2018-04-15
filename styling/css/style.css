@@ -1,0 +1,70 @@
+.body {
+  min-height: 100%;
+  margin: 0 !important; }
+
+.container {
+  background-color: #2B4A57;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.top, .middle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #001f3f;
+  width: 100%;
+  height: 37%; }
+
+#vueHead {
+  font-family: "Anton", sans-serif;
+  font-size: 100px;
+  font-weight: normal;
+  color: #39CCCC; }
+
+a:-webkit-any-link {
+  font-family: "Tajawal", sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  letter-spacing: 10px;
+  color: #2B4A57;
+  cursor: pointer;
+  text-decoration: none; }
+
+a:hover {
+  color: #39CCCC; }
+
+.middle {
+  height: 38.64%; }
+
+.coloredText {
+  font-family: "Tajawal", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 10px;
+  color: #001f3f; }
+
+.colorInput {
+  margin-top: 3.51%;
+  width: 40.74%;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+  border: solid 1px transparent;
+  background-image: linear-gradient #fafafa, #fafafa, linear-gradient(to bottom, #ffffff, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0));
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #9b9b9b;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+/*# sourceMappingURL=style.css.map */

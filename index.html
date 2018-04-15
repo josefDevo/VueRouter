@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Vue Routes</title>
+<link rel="stylesheet" type="text/css" href="styling/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Anton|Tajawal" rel="stylesheet">
+<head>
+
+    <title>VueJs Router test</title>
+</head>
+<body>
+
+
+<!--In this application, I am using the data binding framework Vue.js.
+This is a simple routing application. The UI is made with FlexBox.-->
+
+
+
+<div class="container" v-bind:style="'background-color:'+bga+';'">
+
+    <div class="top" v-bind:style="'background-color:'+bgb+';'">
+        <div id="app">
+            <h1 id="vueHead" >Vue routing</h1>
+            <h2 class="menu">
+                <router-link to="/">Color</router-link>
+                <router-link to="/page">Page</router-link>
+                <router-link to="/vue">Vue</router-link>
+            </h2>
+
+        </div>
+    </div>
+
+    <router-view></router-view>
+
+</div>
+
+</body>
+<script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script src="./routes/index.js" type="module"></script>
+</html>
